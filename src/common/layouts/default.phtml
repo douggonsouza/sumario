@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <!-- Required meta tags-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="au theme template">
+    <meta name="author" content="Hau Nguyen">
+    <meta name="keywords" content="au theme template">
+
+    <!-- Title Page-->
+    <title>DOUGGS</title>
+
+    <!-- STYLES START -->
+
+    <?php $this->partial("heartwood\\common\\layouts\\controllers\\styles"); ?>
+
+    <!-- STYLES END -->
+
+</head>
+
+<body class="animsition">
+    <div class="page-wrapper">
+
+        <!-- HEADER START -->
+
+        <?php $this->partial("heartwood\\common\\layouts\\controllers\\header"); ?>
+
+        <!-- HEADAR END -->
+
+        <!-- PAGE CONTENT-->
+        <div class="page-content--bgf7">
+
+            <!-- HEADER START -->
+
+            <?php $this->partial("heartwood\\common\\layouts\\controllers\\breadcrumb"); ?>
+
+            <!-- HEADAR END -->
+
+            <!-- WELCOME START -->
+
+            <?php $this->partial("heartwood\\common\\layouts\\controllers\\welcome"); ?>
+
+            <!-- WELCOME END -->
+
+            <!-- CONTENT START -->
+
+                <?php $this->content(); ?>
+
+            <!-- CONTENT END -->
+
+            <!-- COPYRIGHT-->
+            <section class="p-t-60 p-b-20">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="copyright">
+                                <p>Copyright © 2020 DOUGGS. All rights reserved.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- END COPYRIGHT-->
+        </div>
+
+    </div>
+
+    <!-- SCRIPTS START -->
+
+    <?php $this->partial("heartwood\\common\\layouts\\controllers\\scripts"); ?>
+
+    <!-- SCRIPTS END -->
+
+</body>
+
+</html>
+<!-- end document-->

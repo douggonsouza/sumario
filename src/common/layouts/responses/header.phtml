@@ -1,0 +1,136 @@
+        <!-- HEADER DESKTOP-->
+        <header class="header-desktop3 d-none d-lg-block">
+            <div class="section__content section__content--p35">
+                <div class="header3-wrap">
+                    <div class="header__logo">
+                        <a href="#">
+                            <img src="<?= _assets ?>/CoolAdmin/images/icon/logomarca_C_douggs.png" alt="DOUGGS" />
+                        </a>
+                    </div>
+
+                    <!-- MENU HEADER-->
+
+                    <?php $this->partial("permission\\admin\\controllers\\menuHeader"); ?>
+
+                    <!-- MENU HEADER-->
+
+                    <div class="header__tool">
+
+                        <!-- HEADER NOTIFICATIONS -->
+
+                            <?php $this->partial("comunication\\admin\\controllers\\headerNotifications"); ?>
+
+                        <!-- HEADAR NOTIFICATIONS -->
+
+                        <!-- <div class="header-button-item js-item-menu">
+                            <i class="zmdi zmdi-settings"></i>
+                            <div class="setting-dropdown js-dropdown">
+                                <div class="account-dropdown__body">
+                                    <div class="account-dropdown__item">
+                                        <a href="#">
+                                            <i class="zmdi zmdi-account"></i>Account</a>
+                                    </div>
+                                    <div class="account-dropdown__item">
+                                        <a href="#">
+                                            <i class="zmdi zmdi-settings"></i>Setting</a>
+                                    </div>
+                                    <div class="account-dropdown__item">
+                                        <a href="#">
+                                            <i class="zmdi zmdi-money-box"></i>Billing</a>
+                                    </div>
+                                </div>
+                                <div class="account-dropdown__body">
+                                    <div class="account-dropdown__item">
+                                        <a href="#">
+                                            <i class="zmdi zmdi-globe"></i>Language</a>
+                                    </div>
+                                    <div class="account-dropdown__item">
+                                        <a href="#">
+                                            <i class="zmdi zmdi-pin"></i>Location</a>
+                                    </div>
+                                    <div class="account-dropdown__item">
+                                        <a href="#">
+                                            <i class="zmdi zmdi-email"></i>Email</a>
+                                    </div>
+                                    <div class="account-dropdown__item">
+                                        <a href="#">
+                                            <i class="zmdi zmdi-notifications"></i>Notifications</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> -->
+
+                        <!-- HEADER NOTIFICATIONS -->
+
+                            <?php $this->partial("account\\admin\\controllers\\headerAccount"); ?>
+
+                        <!-- HEADAR NOTIFICATIONS -->
+
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- END HEADER DESKTOP-->
+
+        <!-- HEADER MOBILE-->
+
+        <?php $this->partial("permission\\admin\\controllers\\menuMobileHeader"); ?>
+
+        <!-- HEADER MOBILE-->
+
+        <div class="sub-header-mobile-2 d-block d-lg-none">
+            <div class="header__tool">
+
+                <!-- HEADER MOBILE NOTIFICATIONS -->
+
+                <?php $this->partial("comunication\\admin\\controllers\\headerMobileComunications"); ?>
+
+                <!-- HEADER MOBILE NOTIFICATIONS -->
+
+                <!-- <div class="header-button-item js-item-menu">
+                    <i class="zmdi zmdi-settings"></i>
+                    <div class="setting-dropdown js-dropdown">
+                        <div class="account-dropdown__body">
+                            <div class="account-dropdown__item">
+                                <a href="#">
+                                    <i class="zmdi zmdi-account"></i>Account</a>
+                            </div>
+                            <div class="account-dropdown__item">
+                                <a href="#">
+                                    <i class="zmdi zmdi-settings"></i>Setting</a>
+                            </div>
+                            <div class="account-dropdown__item">
+                                <a href="#">
+                                    <i class="zmdi zmdi-money-box"></i>Billing</a>
+                            </div>
+                        </div>
+                        <div class="account-dropdown__body">
+                            <div class="account-dropdown__item">
+                                <a href="#">
+                                    <i class="zmdi zmdi-globe"></i>Language</a>
+                            </div>
+                            <div class="account-dropdown__item">
+                                <a href="#">
+                                    <i class="zmdi zmdi-pin"></i>Location</a>
+                            </div>
+                            <div class="account-dropdown__item">
+                                <a href="#">
+                                    <i class="zmdi zmdi-email"></i>Email</a>
+                            </div>
+                            <div class="account-dropdown__item">
+                                <a href="#">
+                                    <i class="zmdi zmdi-notifications"></i>Notifications</a>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+
+                <!-- HEADER NOTIFICATIONS -->
+
+                <?php $this->partial("account\\admin\\controllers\\headerMobileAccount"); ?>
+
+                <!-- HEADAR NOTIFICATIONS -->
+
+            </div>
+        </div>
+        <!-- END HEADER MOBILE -->
