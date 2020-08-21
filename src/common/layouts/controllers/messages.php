@@ -1,6 +1,6 @@
 <?php
 
-    namespace heartwood\common\layouts\controllers;
+    namespace sumario\common\layouts\controllers;
 
     use driver\control\action;
     use alerts\alerts\alerts;

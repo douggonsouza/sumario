@@ -11,7 +11,7 @@
     router::setInfoLocal(PROTOCOL,LOCAL_TYPE_REQUEST, LOCAL_ROOT, LOCAL_REQUEST);
 
     // ROTAS ADMIN
-    router::route('GET','/',"heartwood\\admin\\controllers\\dashboard");
+    router::route('GET','/',"sumario\\admin\\controllers\\dashboard");
 
     // PERMISSÔES
 
@@ -118,7 +118,7 @@
     router::route(
         'GET',
         '/api/products/product/:number',
-        "heartwood\\api\\controllers\\product",
+        "sumario\\api\\controllers\\product",
         'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9'
     );
 

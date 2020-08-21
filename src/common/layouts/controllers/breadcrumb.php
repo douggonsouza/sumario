@@ -1,6 +1,6 @@
 <?php
 
-    namespace heartwood\common\layouts\controllers;
+    namespace sumario\common\layouts\controllers;
 
     use driver\control\action;
 
@@ -9,7 +9,7 @@
         const _LOCAL = __DIR__;
 
         /**
-         * Função a ser executada no contexto da action
+         * Funï¿½ï¿½o a ser executada no contexto da action
          *
          * @param array $info
          * @return void
